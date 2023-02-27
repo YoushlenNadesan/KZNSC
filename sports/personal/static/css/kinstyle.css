@@ -1,0 +1,163 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+	width: 100%;
+	height: 80px;
+	background-color: #FFFFFF;
+	padding:0px 100px;
+}
+
+nav .logo1 p{
+	float: left;
+}
+
+
+nav .logo2{
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 1.5px; 
+}
+nav .logo2 p{
+	text-align: center;
+	text-transform: uppercase;
+}
+nav ul{
+	float: right;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+}
+nav ul li a{
+	color:#000000;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding:0px 32px;
+}
+
+nav ul li a:hover{
+	color:#5FEE03;
+}
+nav ul li .active{
+	color:#5FEE03;
+}
+
+.personal {
+  display: block;
+  width: 100%;
+  height: 60px;
+  border: none;
+  background-color: #FFFFFF;
+  padding: 14px 28px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+.education {
+  display: block;
+  width: 100%;
+  height: 60px;
+  border: none;
+  background-color: #FFFFFF;
+  padding: 14px 28px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+.employment {
+  display: block;
+  width: 100%;
+  height: 60px;
+  border: none;
+  background-color: #FFFFFF;
+  padding: 14px 28px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+.ken {
+  display: block;
+  width: 100%;
+  height: 60px;
+  border: none;
+  background-color: #5FEE03;
+  padding: 14px 28px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+
+  .personal:active {
+    display: block;
+    width: 100%;
+    height: 60px;
+    border: none;
+    background-color: #5FEE03;
+    padding: 14px 28px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+  }
+  .education:active {
+    display: block;
+    width: 100%;
+    height: 60px;
+    border: none;
+    background-color: #5FEE03;
+    padding: 14px 28px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+  }
+  .employment:active {
+    display: block;
+    width: 100%;
+    height: 60px;
+    border: none;
+    background-color: #5FEE03;
+    padding: 14px 28px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+  }
+  .ken:active {
+    display: block;
+    width: 100%;
+    height: 60px;
+    border: none;
+    background-color: #5FEE03;
+    padding: 14px 28px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .pnext {
+    background-color: #5FEE03; 
+    border: none;
+    color: white;
+    padding: 13px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+
+
